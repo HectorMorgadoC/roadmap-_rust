@@ -2,8 +2,8 @@
 <template>
   <div class="flex justify-center m-2">
     <div class="p-10 max-w-7xl w-full">
-        <h1 class="text-bold text-[#EEE0D3] text-4xl mb-5">¿Qué es Rust?</h1>
-        <p class="text-[#EEE0D3] p-3 text-2xl font-medium leading-relaxed">
+        <h1 class="text-bold text-[#EEE0D3] text-5xl mb-5">¿Qué es Rust?</h1>
+        <p class="text-[#EEE0D3] py-3 text-2xl font-medium leading-relaxed">
             Rust es un lenguaje de programación compilado, de propósito general y
             multiparadigma (aunque no soporta las características de los mismos en su
             totalidad) que está siendo desarrollado por Fundación Rust. Es un lenguaje
@@ -14,11 +14,11 @@
             llamada Biblioteca Estándar, que proporciona un rico conjunto de funciones,
             algoritmos y estructuras de datos para diversas tareas.
         </p>
-        <h2 class="text-bold text-[#EEE0D3] text-3xl mb-3">¿Por qué Rust?</h2>
-        <p class="text-[#EEE0D3] p-3 text-2xl font-medium leading-relaxed">
+        <h2 class="text-bold text-[#EEE0D3] text-4xl my-3">¿Por qué Rust?</h2>
+        <p class="text-[#EEE0D3] py-3 text-2xl font-medium leading-relaxed">
           Rust cuenta con características imprescindibles para tomar en cuenta al momento de escogerla como tecnología principal o para implementar >
         </p>
-        <ul class="text-[#EEE0D3] p-3 text-2xl font-medium leading-relaxed">
+        <ul class="text-[#EEE0D3] py-3 text-2xl font-medium leading-relaxed">
           <li><strong>Seguridad:</strong> Rust se destaca por su sistema de seguridad de
             memoria que atrapa errores de acceso no autorizado y problemas de asignación de
             memoria en tiempo de compilación, lo que evita vulnerabilidades comunes como
@@ -35,12 +35,12 @@
           <li><strong>Versatilidad:</strong> Rust es adecuado para una amplia gama de
             aplicaciones, desde desarrollo de sistemas hasta aplicaciones web y embebidas.</li>
         </ul>
-        <h2 class="text-bold text-[#EEE0D3] text-3xl mb-3 italic">
+        <h2 class="text-bold text-[#EEE0D3] text-4xl my-3 italic">
             NOTA: Empresas notables, como Mozilla (el navegador Firefox está parcialmente escrito en Rust),
             Dropbox (utiliza Rust para ciertas partes de su infraestructura de almacenamiento),
             y Amazon Web Services (AWS utiliza Rust para herramientas internas)
           </h2>
-        <h2 class="text-bold text-[#EEE0D3] text-3xl mb-3">Canales de Rust</h2>
+        <h2 class="text-bold text-[#EEE0D3] text-4xl my-3">Canales de Rust</h2>
         <ul class="text-[#EEE0D3] p-3 text-2xl font-medium leading-relaxed">
           <li>
             <strong>1. Canal Stable:</strong> Este es el canal más estable y confiable.
@@ -63,8 +63,8 @@
             emocionantes, también pueden ser menos confiables y más propensas a errores.
           </li>
         </ul>
-        <h2 class="text-bold text-[#EEE0D3] text-3xl mb-3">Seguridad de la memoria y abstracciones de costo cero</h2>
-        <p class="text-[#EEE0D3] p-3 text-2xl font-medium leading-relaxed">
+        <h2 class="text-bold text-[#EEE0D3] text-4xl my-3">Seguridad de la memoria y abstracciones de costo cero</h2>
+        <p class="text-[#EEE0D3] py-3 text-2xl font-medium leading-relaxed">
           Rust es un lenguaje de programación de sistemas que se ejecuta increíblemente rápido,
           previene errores de segmentación y garantiza la seguridad de los subprocesos.
           Cuenta con la característica de "seguridad de memoria sin recolección de elementos
@@ -76,7 +76,7 @@
           no utilizados o la gestión manual de memoria, asegurando así la ejecución rápida del
           software y un entorno de memoria más seguro.
         </p>
-        <p  class="text-[#EEE0D3] p-3 text-2xl font-medium leading-relaxed">
+        <p  class="text-[#EEE0D3] py-3 text-2xl font-medium leading-relaxed">
           Las funciones de gestión de memoria de Rust incluso admiten programación concurrente,
           ofreciendo opciones de acceso a estados compartidos y mutables que garantizan la
           seguridad de los subprocesos y reducen el riesgo de inseguridad de los mismos.
@@ -85,7 +85,7 @@
           alto nivel (como en Python) y ejecutarlo a bajo nivel (como en C). Sin embargo,
           estas abstracciones suelen tener un coste en tiempo de ejecución.
         </p>
-        <p class="text-[#EEE0D3] p-3 text-2xl font-medium leading-relaxed">
+        <p class="text-[#EEE0D3] py-3 text-2xl font-medium leading-relaxed">
           Por el contrario, Rust busca proporcionar muchas abstracciones útiles,
           como iteradores y cierres, que no sacrifican el rendimiento en tiempo de ejecución.
           Esto significa que se puede escribir código de alto nivel en Rust, y el compilador

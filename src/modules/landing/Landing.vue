@@ -1,6 +1,6 @@
 <template>
   <header class="flex flex-row items-center justify-between text-[#EEE0D3] text-4xl mb-6">
-    <img class="w-50 h-50" src="/src/assets/icon/floriambra_logo.svg" alt="floriambra_logo" />
+    <img class="w-35 h-35" src="/src/assets/icon/floriambra_logo.svg" alt="floriambra_logo" />
     <h2 class="font-sans font-semibold mr-10">Roadmap Rust</h2>
   </header>
 
@@ -20,24 +20,19 @@
     <div class="flex justify-center mt-6">
       <button
         @click="activeSection = null"
-        class="bg-[#FC3B47] p-4 text-2xl rounded-lg text-[#EEE0D3] hover:bg-[#d92c38] transition">
-        Volver al menú
+        class="bg-[#FC3B47] w-50 h20 p-4 text-2xl rounded-lg text-[#EEE0D3] hover:bg-[#d92c38] transition">
+        Volver al menú principal
       </button>
     </div>
   </div>
 </template>
-
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import LanguageIntroduction from './LanguageIntroduction.vue'
-import InstalationOfRust from './InstalationOfRust.vue'
-import CargoView from './CargoView.vue'
+import MenuMain from '../introduction/MenuMain.vue'
 
 
 const sections = [
-  { name: 'intro', label: 'Introducción', component: LanguageIntroduction },
-  { name: 'instalation', label: 'Instalacion', component: InstalationOfRust },
-  { name: 'Cargo', label: 'Cargo', component: CargoView}
+  { name: 'intro', label: 'Introducción', component: MenuMain },
 ]
 
 const activeSection = ref<string | null>(null)

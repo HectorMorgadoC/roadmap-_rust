@@ -7,7 +7,7 @@ const router = createRouter({
   {
     path: "/",
     name: "lading",
-    component: () => import('../modules/pages/MenuMain.vue'),
+    component: () => import('../modules/landing/Landing.vue'),
     children: [
       {
         path: "introduction",
